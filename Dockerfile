@@ -1,3 +1,4 @@
-FROM gcr.io/mitac-cust-gcp-1/base-onion:latest 
+FROM asia.gcr.io/crested-studio-139023/base-onion:latest 
+MAINTAINER Ming-der Wang <ming@log4analytics.com>
 CMD ["/go/bin/onion","serve"]
 EXPOSE 8080

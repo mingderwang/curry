@@ -2,11 +2,10 @@
 package main
 
 //@ginger
-type TaipeiCity struct {
+type Grs struct {
 	Ginger_Created int32 `json:"ginger_created"`
 	Ginger_Id      int32 `json:"ginger_id" gorm:"primary_key"`
 
-	Name    string `json:"name"`
-	Age     int    `json:"age"`
-	Address string `json:"address"`
+	Code    string `json:"code"`
+	Name string `json:"name"`
 }
